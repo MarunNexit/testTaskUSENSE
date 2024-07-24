@@ -3,7 +3,7 @@ import { Injectable } from '@angular/core';
 @Injectable({
   providedIn: 'root'
 })
-export class PasswordDetailsService {
+export class PasswordTaskDetailsService {
   getDetailsContent() {
     return `
       <p><strong>The essence of the assignment:</strong></p>
